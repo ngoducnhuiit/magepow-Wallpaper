@@ -15,7 +15,7 @@
         <update id="magepow" title="Magepow" sortOrder="10"
                 module="Magepow_Wallpaper"  resource="Magepow_Wallpaper::wallpaper_manager"/>
 
-        <add id="Magepow_Wallpaper::menustrong" title="Wallpaper" module="Magiccart_Alothemes" sortOrder="10" parent="magepow" resource="Magepow_Wallpaper::menustrong"/>
+        <add id="Magepow_Wallpaper::menustrong" title="Wallpaper" module="Magepow_Wallpaper" sortOrder="10" parent="magepow" resource="Magepow_Wallpaper::menustrong"/>
 
         <add id="Magepow_Wallpaper::list_wallpaper" title="List Wallpapers"
              module="Magepow_Wallpaper" action="wallpaper" sortOrder="10" resource="Magepow_Wallpaper::list_wallpaper"
